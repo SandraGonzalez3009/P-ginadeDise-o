@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    min-height: 80px;
+    background-color:blueviolet;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 75px;
+    margin-right: 10px;
+}
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: azure;
+}
+
+
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    
+}
+.nav{
+    height: 457px;
+}
+.nav img{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.contactos{
+    display: flex;
+    min-height: 80px;
+    background-color:indigo;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.contactos img{
+    height: 75px;
+    margin-right: 10px;
+}
+
+
